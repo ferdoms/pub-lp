@@ -19,7 +19,7 @@ Reset Styles
 ****************************
 ***************************/
 
-@import "normalize.css";
+@import "./normalize.css";
 
 html {
   box-sizing: border-box;
@@ -119,6 +119,13 @@ Layout Styles
     padding-left: 0px;
     padding-right: 0px;
   }
+}
+.list-inline >li{
+  display: inline-block;
+  padding-left: 10px;
+  padding-right: 10px;
+  vertical-align: middle;
+
 }
 
 /***************************
@@ -270,6 +277,13 @@ Module Styles
   color: #594a42;
   font-size: 5em;
 }
+/* Icon Module */
+.fa-3x {
+  transition: all 0.2s;
+}
+.fa-3x:hover {
+  transform: scale(1.2)
+}
 
 /***************************
 ****************************
@@ -293,4 +307,7 @@ Theme Styles
 .bg-black {
   background: #000;
   color: white;
+}
+.tx-red {
+  color: red
 }

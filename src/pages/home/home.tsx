@@ -5,7 +5,16 @@ export class Home extends Component {
   render() {
     return (
       <div>
-        <Container>header</Container>
+        <Container>
+            <header>
+                <ul className="list-inline">
+                    
+                    <li><h1>Pantibar</h1></li>
+                    <li><h1>About</h1></li>
+                    <li><h1>contact</h1></li>
+                </ul>
+            </header>
+        </Container>
         <Container>hero</Container>
         <Container className="hero bg-black">
             <div className="col-1-2">
@@ -61,7 +70,17 @@ export class Home extends Component {
             </div>
         </Container>
         
-        <Container>nova instancia</Container>
+        <Container bgColor="#AEB6BF"> 
+            <footer>
+            <ul className="list-inline">
+             <li> <a target="_blank" href="https://www.facebook.com/Pantibar-159242370794858/?ref=br_rs"><i className="fab fa-facebook-square fa-3x tx-red "></i></a> </li>
+                <li><a target="_blank"href="https://www.instagram.com/explore/locations/546315/pantibar/?hl=en"><i className="fab fa-instagram fa-3x tx-red"></i></a> </li>
+               <li> &copy; - me chupa </li>
+
+               </ul>
+            </footer>
+        </Container>
+       
       </div>
     );
   }
