@@ -1,12 +1,12 @@
 import React, { Component } from "react";
 import { Container } from "../../components/container/container";
+import { Hero } from "../../components/hero/hero";
 
 export class Home extends Component {
   render() {
     return (
       <div>
-        <Container>header</Container>
-        <Container>hero</Container>
+        <Hero><Container bgColor="rgba(255,0,0,0.7)">header</Container></Hero>
         <Container className="hero bg-black">
             <div className="col-1-2">
               <div className="media">

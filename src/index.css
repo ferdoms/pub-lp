@@ -19,7 +19,7 @@ Reset Styles
 ****************************
 ***************************/
 
-@import "normalize.css";
+@import "./normalize.css";
 
 html {
   box-sizing: border-box;
@@ -242,6 +242,7 @@ Module Styles
   margin-top: 25px;
 }
 
+
 /*Background Modules*/
 .bg-image {
   width: 100%;
@@ -269,6 +270,9 @@ Module Styles
 .media-item i {
   color: #594a42;
   font-size: 5em;
+}
+.media-heading{
+ margin: 0; 
 }
 
 /***************************
